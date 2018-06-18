@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Tomasz Piwowar - Test project</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Roboto" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.min.js"></script>
+  <script type="text/javascript" src="dist/jquery.pageScroll.js"></script>
+  <link rel="stylesheet" href="dist/jquery.pageScroll.css">
+
+</head>
+
+<body>
+  <div id="nav">
+    <a href="index.html">
+      <h1 class="logo">BRAND LOGO</h1>
+    </a>
+    <div id="top-nav">
+      <a href="about.html">about + contact</a>
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="overlay">
+    <div>
+      <ul>
+        <a id="thumb1" href="#">
+          <li>
+            <img src="monsteramini.png" alt="monstera leaf thumbnail">
+            <h2>palm leaves</h2>
+            <p>page 1</p>
+          </li>
+        </a>
+        <a id="thumb2" href="#">
+          <li>
+            <img src="paczekmini.png" alt="donut thumbnail">
+            <h2>tasty donuts</h2>
+            <p>page 2</p>
+          </li>
+        </a>
+        <a id="thumb3" href="#">
+          <li>
+            <img src="drinkmini.png" alt="drink thumbnail">
+            <h2>cocktails</h2>
+            <p>page 3</p>
+          </li>
+        </a>
+        <a id="thumb4" href="#">
+          <li><img src="iphonemini.png" alt="iphone x thumbnail">
+            <h2>iphone x</h2>
+            <p>page 4</p>
+          </li>
+        </a>
+      </ul>
+      <a href="about.html" id="overlayLink"><p>about + contact</p></a>
+    </div>
+  </div>
+
+
+  <div id="main" class="wrapper">
+    <div class="page" id="page1">
+      <div class="firstPageBackground"></div>
+      <div class="pageTitleContainer">
+        <h1 class="pageTitle">palm leaves</h1>
+      </div>
+      <div class="container">
+        <a class="button" id="button1" href="https://www.onet.pl/">Test Button</a>
+      </div>
+    </div>
+    <div class="page" id="page2">
+      <div class="secondPageBackground"></div>
+      <div class="pageTitleContainer">
+        <h1 class="pageTitle">tasty donuts</h1>
+      </div>
+      <div class="container">
+        <a class="button" id="button2" href="https://www.onet.pl/">Test Button 2</a>
+      </div>
+    </div>
+    <div class="page" id="page3">
+      <div class="thirdPageBackground"></div>
+      <div class="pageTitleContainer">
+        <h1 class="pageTitle">cocktails</h1>
+      </div>
+      <div class="container">
+        <a class="button" id="button3" href="https://www.onet.pl/">Test Button 3</a>
+      </div>
+    </div>
+    <div class="page" id="page4">
+      <div class="fourthPageBackground"></div>
+      <div class="pageTitleContainer">
+        <h1 class="pageTitle">iphone x</h1>
+      </div>
+      <div class="container">
+        <a class="button" id="button4" href="https://www.onet.pl/">Test Button 4</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    $(document).ready(function() {
+      $('#main').pageScroll({
+        pageContainer: '.page',
+        loop: true
+      });
+    });
+
+    $('a#thumb1').click(function(e) {
+      $('#main').moveToPage(0);
+      e.preventDefault();
+    });
+    $('a#thumb2').click(function(e) {
+      $('#main').moveToPage(1);
+      e.preventDefault();
+    });
+    $('a#thumb3').click(function(e) {
+      $('#main').moveToPage(2);
+      e.preventDefault();
+    });
+    $('a#thumb4').click(function(e) {
+      $('#main').moveToPage(3);
+      e.preventDefault();
+    });
+  </script>
+
+</body>
+
+</html>
