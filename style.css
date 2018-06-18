@@ -517,7 +517,7 @@ li {
 #project1 {
   grid-column: 1 / 4;
   grid-row: 1;
-  background-image: url(monstera.png);
+  background-image: url(monstera1.png);
   background-position: center;
 
 }
@@ -540,7 +540,7 @@ li {
 #project4 {
   grid-column: 2 / 4;
   grid-row: 3;
-  background-image: url(iPhone-X.png);
+  background-image: url(iphone.png);
   background-position: center;
 }
 
