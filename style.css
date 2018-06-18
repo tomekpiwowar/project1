@@ -845,12 +845,21 @@ li {
 
 @media all and (max-width: 480px) {
 
-  .pageTitleContainer .pageTitle {
-    font-size: 1.75rem;
+  .logo {
+    font-size: 1.8rem;
   }
+
+  #top-nav {
+    margin-top: 1vh;
+    font-size: 0.7rem;
+  }
+
+  .pageTitleContainer .pageTitle {
+    font-size: 1.4rem;
+  }
+  
   #overlay {
     height: 100vh;
-
   }
 
   #overlay div {
@@ -962,11 +971,3 @@ li {
     height: 20vh;
   }
 
-  .logo {
-    font-size: 2.5rem;
-  }
-
-  #top-nav {
-    margin-top: 1vh;
-    font-size: 0.7rem;
-  }
