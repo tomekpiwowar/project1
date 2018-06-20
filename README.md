@@ -7,7 +7,7 @@ i odtworzenie jej wizulanie i funkcjonalnie bez zaglądania w kod oryginału.
 
 Strona napisana w wykorzystaniem: 
 * HTML, 
-* CSS (korzystałem z rożnych metod pozycjonowania; "tradycyjnej", flexbox, i grid, w zależności 
+* CSS (korzystałem z rożnych metod pozycjonowania; "tradycyjnej", flexbox i grid, w zależności 
 od potrzeb), 
 * Pluginów JavaScript i JQuery.
 
