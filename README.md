@@ -3,7 +3,7 @@
 Projekt napisany w celach treningowych. 
 
 Moim założeniem był wybór jednej ze stron nagrodzonych na https://www.awwwards.com/ (wybór padł na http://www.linequality.com/)
-i odtworzenie jej wizulanie i funkcjonalnie bez zaglądania w kod oryginału. 
+i odtworzenie jej wizulanie i funkcjonalnie bez wglądu do kodu oryginału. 
 
 Strona napisana w wykorzystaniem: 
 * HTML, 
