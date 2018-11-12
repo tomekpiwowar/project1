@@ -4,8 +4,7 @@ Projekt napisany w celach treningowych.
 
 * Strona napisana w wykorzystaniem: 
 -HTML, 
--CSS (korzystałem z rożnych metod pozycjonowania; "tradycyjnej", flexbox i grid, w zależności 
-od potrzeb), 
+-CSS,
 -JavaScript i JQuery.
 
 
