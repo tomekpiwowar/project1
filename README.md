@@ -6,6 +6,3 @@ Projekt napisany w celach treningowych.
 -HTML, 
 -CSS,
 -JavaScript i JQuery.
-
-
-* Strona jest pełni responsywna i dostosowana do urządzeń mobilnych.
